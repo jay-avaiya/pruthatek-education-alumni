@@ -9,7 +9,7 @@ const SectionCardRight = ({ image, title, description, badge }) => {
           <p className="text-[#007BFF] text-sm md:text-[16px] font-semibold">
             {badge || "Simplify Prescription Management"}
           </p>
-          <h3 className="text-red-400 md:text-yellow-300 lg:text-pink-400 xl:text-[#333333] text-2xl md:text-3xl text-[40px] font-semibold">
+          <h3 className="text-[#333333] text-2xl md:text-3xl text-[40px] font-semibold">
             {title || "Schedule Appointments"}
           </h3>
         </div>
@@ -41,7 +41,7 @@ const SectionCardRight = ({ image, title, description, badge }) => {
           <p className="text-[#007BFF] text-sm md:text-[16px] font-semibold">
             {badge || "Simplify Prescription Management"}
           </p>
-          <h3 className="text-red-400 md:text-yellow-300 lg:text-pink-400 xl:text-[#333333] text-2xl md:text-3xl xl:text-[40px] font-semibold">
+          <h3 className="text-[#333333] text-2xl md:text-3xl xl:text-[40px] font-semibold">
             {title || "Schedule Appointments"}
           </h3>
         </div>

@@ -61,7 +61,7 @@ const HomePage = () => {
           practice management for Doctors.
         </p>
 
-        <button className="text-white bg-[#007BFF] text-sm md:text-[16px] font-bold rounded-full py-3 px-14 cursor-pointer">
+        <button className="text-white bg-[#007BFF] text-sm md:text-[16px] font-bold rounded-full py-3 px-14 cursor-pointer active:scale-95 transition duration-100">
           Book A Demo
         </button>
       </div>
