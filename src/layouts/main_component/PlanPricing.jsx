@@ -281,7 +281,7 @@ const PlanPricing = ({ hide = false }) => {
 
               <div>
                 <h5 className="text-2xl lg:text-3xl xl:text-[34px] font-bold mt-2 tracking-wide text-white">
-                  ₹ 34,000 {""}
+                  ₹ 38,000 {""}
                   <span className="text-xs xl:text-sm font-normal">
                     2nd Year Onwards
                   </span>
