@@ -1,7 +1,6 @@
 import { SearchIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import SectionCard from "./_components/SectionCard";
-import Blog from "../../../layouts/main_component/Blog";
 
 const Resource = () => {
   const [active, setActive] = useState("invoicing");
@@ -84,7 +83,7 @@ const Resource = () => {
                           ${
                             active === item.id
                               ? "text-white"
-                              : "text-black group-hover:text-[#008060]"
+                              : "text-black group-hover:text-[#2C87F2]"
                           }
                         `}
                   >

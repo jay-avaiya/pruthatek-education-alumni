@@ -40,7 +40,7 @@ const SectionCard = ({ id, title, desc, image, btnText }) => {
           </>
         )}
       </div>
-      <button className="text-sm lg:text-[16px] font-bold text-white bg-[#2C87F2] rounded-[12px] w-full max-w-[200px] py-3 cursor-pointer mt-2">
+      <button className="text-sm lg:text-[16px] font-bold text-white bg-[#2C87F2] rounded-[12px] w-full max-w-[200px] py-3 cursor-pointer mt-2 active:scale-95 transition duration-100">
         {btnText || `Know More`}
       </button>
     </div>
